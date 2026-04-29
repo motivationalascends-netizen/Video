@@ -1,4 +1,3 @@
-import { loadFont } from "@remotion/google-fonts/Roboto";
 import React from "react";
 import {
   AbsoluteFill,
@@ -8,10 +7,7 @@ import {
   useVideoConfig,
 } from "remotion";
 
-const { fontFamily } = loadFont("normal", {
-  subsets: ["latin"],
-  weights: ["400", "700", "900"],
-});
+const fontFamily = "Arial, Helvetica, sans-serif";
 
 const disappearBeforeEnd = 20;
 
